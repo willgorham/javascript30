@@ -5,7 +5,7 @@
 
 # 01 - JavaScript Drum Kit
 
-[View demo](https://willgorham.github.io/javascript30/01%20-%20JavaScript%20Drum%20Kit/index.html)
+### [View demo](https://willgorham.github.io/javascript30/01%20-%20JavaScript%20Drum%20Kit/index.html)
 
 A pretty cool little drum kit that was fun and easy to make. I stopped the video at the beginning and worked through the problem myself before going back and seeing how Wes completed it. I think I'll continue do work through the videos this way to help solidify my JS skills. It was a fun challenge to clear away all the cruft of compliers, build tools, and libraries and just focus on vanilla JS.
 
