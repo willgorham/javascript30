@@ -1,9 +1,9 @@
-# JavaScript30
-A vanilla JS practice course written by Wes Bos (https://javascript30.com/)
+> ## JavaScript30
+> A vanilla JS practice course written by Wes Bos (https://javascript30.com/)
+> 
+> No frameworks. No compliers. No libraries. No boilerplate.
 
-No frameworks. No compliers. No libraries. No boilerplate.
-
-## 01 - JavaScript Drum Kit
+# 01 - JavaScript Drum Kit
 
 [View demo](https://willgorham.github.io/javascript30/01%20-%20JavaScript%20Drum%20Kit/index.html)
 
