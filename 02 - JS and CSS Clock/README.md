@@ -10,14 +10,14 @@
 A pretty simple JS clock. The most complicated part here was probable working through the CSS positioning of each hand and how to get the rotation to look correct.
 
 
-### This project involved:
+### What did this project involve?
 
 - CSS transforms and transitions
 - Use of `setinterval`
 - Setting CSS properties with JS
 - Use of `Object.keys`
 
-### What I learned:
+### What did I learn?
 
 - The CSS property `transition-timing-function`. I had always included this in the shorthand `transition` property, but never knew the individual property name.
 - How to use `transform-origin` to adjust an element's point of rotation.
