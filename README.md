@@ -7,3 +7,4 @@ No frameworks. No compliers. No libraries. No boilerplate.
 
 1. [JavaScript Drum Kit](https://github.com/willgorham/javascript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)  |  [view demo](https://willgorham.github.io/javascript30/01%20-%20JavaScript%20Drum%20Kit/index.html)
 2. [CSS and JS Clock](https://github.com/willgorham/javascript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)  |  [view demo](https://willgorham.github.io/javascript30/02%20-%20JS%20and%20CSS%20Clock/index.html)
+2. [CSS Variables](https://github.com/willgorham/javascript30/tree/master/03%20-%20CSS%20Variables)  |  [view demo](https://willgorham.github.io/javascript30/03%20-%20CSS%20Variables/index.html)
