@@ -18,8 +18,8 @@ Not much new here in terms of JS (not much JS at all!), just some class toggling
 
 ### What did I learn?
 
-- Using `.includes` in an if statement to look for a partial string
-- This one has some nice looking flex transitions and animations that were incredibly easy to implement. Nice seeing thing like this done cleanly!
+- Using `.includes` in an if statement to look for a partial string.
+- This one has some nice looking flex transitions and animations that were incredibly easy to implement. Nice seeing things like this done cleanly!
 
 ### Additional things:
 
