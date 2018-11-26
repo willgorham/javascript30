@@ -1,22 +1,27 @@
-function setTime() {
+function setTime(hands) {
   const dateNow = new Date(),
         seconds = dateNow.getSeconds(),
         minutes = dateNow.getMinutes(),
-        hours   = dateNow.getHours();
+        hours   = dateNow.getHours(),
+        degrees = {
+          second: (seconds / 60) * 360,
+          minute: (minutes / 60) * 360,
+          hour:   (hours / 12) * 360
+        };
 
-  const degreesFromSeconds = (seconds / 60) * 360;
-  secondHand.style.transform = `rotate(${degreesFromSeconds}deg)`;
 
-  const degreesFromMinutes = (minutes / 60) * 360;
-  minuteHand.style.transform =`rotate(${degreesFromMinutes}deg)`;
-
-  const degreesFromHours = (hours / 12) * 360;
-  hourHand.style.transform = `rotate(${degreesFromHours}deg)`;
+  Object.keys(hands).forEach(function(handName) {
+    // Turn off transition at 0deg to prevent visual jump
+    hands[handName].style['transition-duration'] = (0 === degrees[handName]) ? '0s' : '.05s';
+    hands[handName].style.transform = `rotate(${degrees[handName]}deg)`;
+  });
 }
 
 
-const hourHand   = document.querySelector('.hour-hand'),
-      minuteHand = document.querySelector('.minute-hand'),
-      secondHand = document.querySelector('.second-hand');
+const hands = {
+  second: document.querySelector('.second-hand'),
+  minute: document.querySelector('.minute-hand'),
+  hour:   document.querySelector('.hour-hand')
+};
 
-setInterval(setTime, 1000);
+setInterval(setTime, 1000, hands);
