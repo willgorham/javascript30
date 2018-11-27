@@ -15,8 +15,9 @@ Well, this was a cool DevTools whirlwind.
 
 ### What did I learn?
 
-- All kinds of cool tricks. Highlights are:
-- `console.group` / `console.groupCollapsed` are great for outputting groupons of data instead of doing things line-by-line.
+All kinds of cool tricks. Highlights are:
+
+- `console.group` / `console.groupCollapsed` are great for outputting groups of data instead of doing things line-by-line.
 - `console.dir` for displaying details object properties.
 - `console.table` is still great.
 
