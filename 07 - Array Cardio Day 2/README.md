@@ -3,12 +3,11 @@
 >
 > No frameworks. No compliers. No libraries. No boilerplate.
 
-# 04 - Array Cardio Day 2
+# 07 - Array Cardio Day 2
 
-### [View demo](https://willgorham.github.io/javascript30/04%20-%20Array%20Cardio%20Day%202/index.html)
+### [View demo](https://willgorham.github.io/javascript30/07%20-%20Array%20Cardio%20Day%202/index.html)
 
 Another short series of array method exercies.
-
 
 ### What did this project involve?
 
