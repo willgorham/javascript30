@@ -12,4 +12,4 @@ No frameworks. No compliers. No libraries. No boilerplate.
 5. [Flex Panel Gallery](https://github.com/willgorham/javascript30/tree/master/05%20-%20Flex%20Panel%20Gallery)  |  [view demo](https://willgorham.github.io/javascript30/05%20-%20Flex%20Panel%20Gallery/index.html)
 6. [Type Ahead](https://github.com/willgorham/javascript30/tree/master/06%20-%20Type%20Ahead)  |  [view demo](https://willgorham.github.io/javascript30/06%20-%20Type%20Ahead/index.html)
 7. [Array Cardio Day 2](https://github.com/willgorham/javascript30/tree/master/07%20-%20Array%20Cardio%20Day%202)  |  [view demo](https://willgorham.github.io/javascript30/07%20-%20Array%20Cardio%20Day%202/index.html)
-7. [Array Cardio Day 2](https://github.com/willgorham/javascript30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas)  |  [view demo](https://willgorham.github.io/javascript30/08%20-%20Fun%20with%20HTML5%20Canvas/index.html)
+8. [Fun with HTML5 Canvas](https://github.com/willgorham/javascript30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas)  |  [view demo](https://willgorham.github.io/javascript30/08%20-%20Fun%20with%20HTML5%20Canvas/index.html)
