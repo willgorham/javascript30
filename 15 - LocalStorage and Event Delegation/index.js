@@ -2,8 +2,17 @@ const addPlatesForm = document.querySelector('.add-items');
 const platesList    = document.querySelector('.plates');
 const plates        = JSON.parse(localStorage.getItem('plates')) || [];
 
+// Actions
+const deleteAllButton  = document.querySelector('#delete-all');
+const uncheckAllButton = document.querySelector('#uncheck-all');
+const checkAllButton   = document.querySelector('#check-all');
+
 addPlatesForm.addEventListener('submit', addItem);
 platesList.addEventListener('change', toggleDone);
+
+deleteAllButton.addEventListener('click', handleDelete);
+uncheckAllButton.addEventListener('click', handleUncheckAll);
+checkAllButton.addEventListener('click', handleCheckAll);
 
 populateList(plates, platesList);
 
@@ -42,5 +51,30 @@ function toggleDone(event) {
 
   const index = event.target.dataset.index;
   plates[index].done = event.target.checked;
+
+}
+
+function handleDelete(event) {
+  plates.length = 0;
+  populateList(plates, platesList);
   localStorage.setItem('plates', JSON.stringify(plates));
 }
+
+function handleUncheckAll(event) {
+  plates.forEach(plate =>  {
+    plate.done = false;
+  })
+
+  populateList(plates, platesList);
+  localStorage.setItem('plates', JSON.stringify(plates));
+}
+
+function handleCheckAll(event) {
+  plates.forEach(plate =>  {
+    plate.done = true;
+  })
+
+  populateList(plates, platesList);
+  localStorage.setItem('plates', JSON.stringify(plates));
+}
+
