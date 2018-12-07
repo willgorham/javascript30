@@ -1,0 +1,46 @@
+const addPlatesForm = document.querySelector('.add-items');
+const platesList    = document.querySelector('.plates');
+const plates        = JSON.parse(localStorage.getItem('plates')) || [];
+
+addPlatesForm.addEventListener('submit', addItem);
+platesList.addEventListener('change', toggleDone);
+
+populateList(plates, platesList);
+
+
+function addItem(event) {
+  event.preventDefault(); // Prevent page refresh.
+
+  const itemName = this.querySelector('[name="item"]').value;
+  const item = {
+    name: itemName,
+    done: false
+  };
+
+  plates.push(item);
+  populateList(plates, platesList);
+  localStorage.setItem('plates', JSON.stringify(plates));
+  this.reset(); // CLear form.
+}
+
+function populateList(items = [], itemsList) {
+  itemsList.innerHTML = items.map((item, index) => {
+    const checked = item.done ? 'checked' : '';
+    return (
+      `<li>
+         <input type="checkbox" data-index="${index}" id="item${index}" ${checked}>
+         <label for="item${index}">${item.name}</label>
+      </li>`
+    );
+  }).join('');
+}
+
+function toggleDone(event) {
+  if (!event.target.matches('[type="checkbox"]')) {
+    return;
+  }
+
+  const index = event.target.dataset.index;
+  plates[index].done = event.target.checked;
+  localStorage.setItem('plates', JSON.stringify(plates));
+}
