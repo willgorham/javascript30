@@ -12,7 +12,7 @@ Working with arrays again [😄][😛][🤪][🙁][😘]
 ### What did this project involve?
 
 - Array sorting
-- Creating a RegEx string from and array
+- Creating a RegEx string from an array
 
 ### What did I learn?
 
@@ -21,4 +21,4 @@ Working with arrays again [😄][😛][🤪][🙁][😘]
 
 ### Additional things:
 
-Instead of hard-coding my regex, I built it up from an array, which felt like it would be mroe appropriate. Otherwise a pretty straightforward problem here.
+Instead of hard-coding my regex, I built it up from an array, which felt like it would be more appropriate and reusable. Otherwise a pretty straightforward problem here.
