@@ -15,7 +15,7 @@ It's amazing how simple it is to implement some basic speech recognition with bu
 
 ### What did I learn?
 
-- Pretty much just that the `window.SpeechRecognition` API exists, otherwise this was a pretty simple project.
+- That the `window.SpeechRecognition` API exists, otherwise this was a pretty simple project.
 
 ### Additional things:
 
