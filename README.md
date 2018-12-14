@@ -26,3 +26,4 @@ No frameworks. No compliers. No libraries. No boilerplate.
 19. [Webcam Fun](https://github.com/willgorham/javascript30/tree/master/19%20-%20Webcam%20Fun)  |  [view demo](https://willgorham.github.io/javascript30/19%20-%20Webcam%20Fun/index.html)
 20. [Speech Recognition](https://github.com/willgorham/javascript30/tree/master/20%20-%20Speech%20Recognition)  |  [view demo](https://willgorham.github.io/javascript30/20%20-%20Speech%20Recognition/index.html)
 21. [Geolocation](https://github.com/willgorham/javascript30/tree/master/21%20-%20Geolocation)  |  [view demo](https://willgorham.github.io/javascript30/21%20-%20Geolocation/index.html)
+22. [Follow Along Link Highlighter](https://github.com/willgorham/javascript30/tree/master/22%20-%20Follow%20Along%20Link%20Highlighter)  |  [view demo](https://willgorham.github.io/javascript30/22%20-%20Follow%20Along%20Link%20Highlighter/index.html)
