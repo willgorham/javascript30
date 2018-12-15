@@ -28,3 +28,4 @@ No frameworks. No compliers. No libraries. No boilerplate.
 21. [Geolocation](https://github.com/willgorham/javascript30/tree/master/21%20-%20Geolocation)  |  [view demo](https://willgorham.github.io/javascript30/21%20-%20Geolocation/index.html)
 22. [Follow Along Link Highlighter](https://github.com/willgorham/javascript30/tree/master/22%20-%20Follow%20Along%20Link%20Highlighter)  |  [view demo](https://willgorham.github.io/javascript30/22%20-%20Follow%20Along%20Link%20Highlighter/index.html)
 23. [Speech Synthesis](https://github.com/willgorham/javascript30/tree/master/23%20-%20Speech%20Synthesis)  |  [view demo](https://willgorham.github.io/javascript30/23%20-%20Speech%20Synthesis/index.html)
+24. [Sticky Nav](https://github.com/willgorham/javascript30/tree/master/24%20-%20Sticky%20Nav)  |  [view demo](https://willgorham.github.io/javascript30/24%20-%20Sticky%20Nav/index.html)
