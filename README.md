@@ -34,3 +34,4 @@ No frameworks. No compliers. No libraries. No boilerplate.
 27. [Click and Drag](https://github.com/willgorham/javascript30/tree/master/27%20-%20Click%20and%20Drag)  |  [view demo](https://willgorham.github.io/javascript30/27%20-%20Click%20and%20Drag/index.html)
 28. [Video Speed Controller](https://github.com/willgorham/javascript30/tree/master/28%20-%20Video%20Speed%20Controller)  |  [view demo](https://willgorham.github.io/javascript30/28%20-%20Video%20Speed%20Controller/index.html)
 29. [Countdown Timer](https://github.com/willgorham/javascript30/tree/master/29%20-%20Countdown%20Timer)  |  [view demo](https://willgorham.github.io/javascript30/29%20-%20Countdown%20Timer/index.html)
+30. [Whack-a-Mole](https://github.com/willgorham/javascript30/tree/master/30%20-%20Whack-a-Mole)  |  [view demo](https://willgorham.github.io/javascript30/30%20-%20Whack-a-Mole/index.html)
