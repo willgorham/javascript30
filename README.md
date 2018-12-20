@@ -35,3 +35,8 @@ No frameworks. No compliers. No libraries. No boilerplate.
 28. [Video Speed Controller](https://github.com/willgorham/javascript30/tree/master/28%20-%20Video%20Speed%20Controller)  |  [view demo](https://willgorham.github.io/javascript30/28%20-%20Video%20Speed%20Controller/index.html)
 29. [Countdown Timer](https://github.com/willgorham/javascript30/tree/master/29%20-%20Countdown%20Timer)  |  [view demo](https://willgorham.github.io/javascript30/29%20-%20Countdown%20Timer/index.html)
 30. [Whack-a-Mole](https://github.com/willgorham/javascript30/tree/master/30%20-%20Whack-a-Mole)  |  [view demo](https://willgorham.github.io/javascript30/30%20-%20Whack-a-Mole/index.html)
+
+
+## Recap
+
+This was a great way to refresh my JS knowledge while picking up little tips and tricks along the way. Recently I've been working with PHP a lot, and jQuery (due to lots of WordPress work), but am hoping to move in a more modern JS development direction, and this was good place to start. On to more learning!
